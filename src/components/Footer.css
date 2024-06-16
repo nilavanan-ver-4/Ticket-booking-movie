@@ -1,0 +1,11 @@
+footer {
+    
+    background-color: #383434;
+    color: #fff;
+    justify-content:last baseline;
+    text-align: center;
+    font-size: large;
+    z-index: 5;
+    display:block;
+    position:sticky;
+}

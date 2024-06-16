@@ -1,0 +1,48 @@
+/* Hero section styles */
+.hero {
+    background-image: url('');
+    background-color: skyblue;
+    background-size: cover;
+    background-position: center;
+    color: #0501fd;
+    text-align: center;
+    padding: 75px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.hero-content h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* Improved CSS for the Search Bar */
+.search-bar {
+    display: flex;
+    margin-top: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #007bff; /* Highlighting border color */
+    border-radius: 5px 0 0 5px;
+    outline: none; /* Remove default input focus outline */
+}
+
+#search-btn {
+    padding: 12px 20px;
+    border: 2px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#search-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
