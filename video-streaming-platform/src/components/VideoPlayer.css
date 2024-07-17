@@ -1,0 +1,16 @@
+.video-player {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .video-player h2 {
+    margin-top: 0;
+  }
+  
+  .video-player video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
